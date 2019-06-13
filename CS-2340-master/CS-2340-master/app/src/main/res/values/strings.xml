@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RatApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="reason_prompt">Reason For Ban</string>
+
+    <string-array name="reasons_arrays">
+        <item>Account Under-use</item>
+        <item>Posting False Reports</item>
+        <item>User Complaints</item>
+        <item>Personal Vendetta</item>
+        <item>Other</item>
+    </string-array>
+</resources>

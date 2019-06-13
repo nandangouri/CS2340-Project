@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sean.ratapp">
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBWMEraXE7Rs0fmYBDanz4a1eK1sx2OVik"/>
+        <activity android:name=".controllers.StartScreenActivity">
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controllers.LogginginActivity" />
+        <activity android:name=".controllers.HomeActivity" />
+        <activity android:name=".controllers.RegisterActivity" />
+        <activity android:name=".controllers.AdminHomeActivity" />
+        <activity android:name=".controllers.RatSightingListActivity" />
+        <activity android:name=".controllers.RatSightingDetails" />
+        <activity android:name=".controllers.AddSightingActivity" />
+        <activity android:name=".controllers.MapActivity" />
+        <activity android:name=".controllers.RangeGraphActivity" />
+        <activity android:name=".controllers.BanUserActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "846419048151",
+    "firebase_url": "https://rat-app-22f3a.firebaseio.com",
+    "project_id": "rat-app-22f3a",
+    "storage_bucket": "rat-app-22f3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846419048151:android:29f7e9b5a0b0ee2f",
+        "android_client_info": {
+          "package_name": "com.example.sean.ratapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846419048151-aj3s97nog2tnn7aac3osvhshmh2kubpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sean.ratapp",
+            "certificate_hash": "3246516a35efa3f89b732886ebf708ee63f91d94"
+          }
+        },
+        {
+          "client_id": "846419048151-mdauhhl80jp3thpv6msd89cr5al8qvvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Bi5DuVaBKZ_Ec9cWPjnxf-qIFSIRFKg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846419048151-mdauhhl80jp3thpv6msd89cr5al8qvvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
